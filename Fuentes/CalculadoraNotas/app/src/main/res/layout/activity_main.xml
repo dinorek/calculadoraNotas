@@ -66,6 +66,30 @@
         android:layout_height="wrap_content">
     </Button>
 </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:visibility="invisible"
+        android:id="@+id/promedioLl"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:text="Promedio"
+    android:textAllCaps="true"
+    android:textSize="@dimen/letraBase"
+    android:layout_height="wrap_content">
+</TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/promedioTxt"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="@dimen/letraBase"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
 <TextView
     android:layout_width="match_parent"
     android:layout_marginTop="120dp"
